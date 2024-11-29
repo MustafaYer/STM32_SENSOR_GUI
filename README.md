@@ -9,8 +9,8 @@ This project reads temperature and humidity data from the DHT11 sensor and displ
 ### Features
 - **CRC Validation:** UART communication includes CRC checks to prevent errors in data transmission.  
 - **Frame Control:** A frame structure has been implemented for UART communication:
-  - **Temperature Data Frame:** `A42*data size*data*crc;`  
-  - **Humidity Data Frame:** `B42*data size*data*crc;`
+  - **Temperature Data Frame:** `:A42*data size*data*crc;`  
+  - **Humidity Data Frame:** `:B42*data size*data*crc;`
 
 Additionally, the data is saved to an SD card as a text file at 1-second intervals. All operations are managed using an RTOS (Real-Time Operating System) to ensure efficient task handling and real-time performance.
 
