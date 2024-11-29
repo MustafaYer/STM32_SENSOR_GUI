@@ -20,6 +20,7 @@ The graphical representation of the data is implemented using the **QCustomPlot*
 
 - **MCU:** STM32F446RE  
 - **Sensor:** DHT11
+- **SD Cart Module With SPI** 
 
 
 
