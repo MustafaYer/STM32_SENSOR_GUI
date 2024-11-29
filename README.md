@@ -1,6 +1,20 @@
 # STM32_Sensor_Gui
 A GUI application for monitoring sensor data using STM32 and Qt. Visualizes real-time temperature and humidity values with dynamic graphics.
 
+
+# Project Description
+
+This project reads temperature and humidity data from the DHT11 sensor and displays the data on a GUI built with the Qt Framework. The communication between the microcontroller and the Qt GUI is performed using the UART protocol. 
+
+Additionally, the data is saved to an SD card as a text file at 1-second intervals. All operations are managed using an RTOS (Real-Time Operating System) to ensure efficient task handling and real-time performance.
+
+## Hardware Information
+
+- **MCU:** STM32F446RE  
+- **Sensor:** DHT11
+
+
+
 ## QT GUI
 ![WhatsApp Görsel 2024-11-29 saat 22 26 22_e541d47a](https://github.com/user-attachments/assets/5f616a00-7cfd-4e61-8187-83e38c021db8)
 
